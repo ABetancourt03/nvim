@@ -31,6 +31,6 @@ git clone https://github.com/ABetancourt03/nvim.git ~/.config/nvim && nvim
 
 - Windows Powershell:
 ```bash
-git clone https://github.com/ABetancourt03/nvim.git $ENV:USERPROFILE\AppData\Local\nvim && nvim
+git clone https://github.com/ABetancourt03/nvim.git ~\AppData\Local\nvim && nvim
 ```
 ### This will clone and install the config and all plugins automatically
