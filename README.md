@@ -4,12 +4,22 @@
 
 First, to remove any other configuration copy and paste these commands
 
+Linux/MacOS
 ```bash
 rm -rf ~/.config/nvim
 ```
 
 ```bash
 rm -rf ~/.local/share/nvim
+```
+
+Windows
+```bash
+rm -Force ~\AppData\Local\nvim
+```
+
+```bash
+rm -Force ~\AppData\Local\nvim-data
 ```
 
 Once removed any config you have, paste this command to install the new config
