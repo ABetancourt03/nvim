@@ -16,3 +16,5 @@ vim.keymap.set("n", "<leader>z", ":!python3 %<cr>")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 vim.keymap.set("i", "jj", "<Esc>")
+
+vim.keymap.set("n", ";", ":")
