@@ -1,5 +1,6 @@
 require("lazy").setup({
 	{
+		-- colorschemes
 		"morhetz/gruvbox",
 		"dracula/vim",
 		{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
@@ -9,6 +10,11 @@ require("lazy").setup({
 			lazy = false,
 			priority = 1000,
 			opts = {},
+		},
+		{
+			"maxmx03/solarized.nvim",
+			lazy = false,
+			priority = 1000,
 		},
 	},
 	{
