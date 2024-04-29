@@ -1,3 +1,5 @@
+require("core.plugin_config.tokyonight")
+
 require("catppuccin").setup({
 	flavour = "mocha",
 	transparent_background = true,
@@ -8,4 +10,4 @@ require("catppuccin").setup({
 
 vim.o.termguicolors = true
 vim.o.background = "dark"
-vim.cmd([[colorscheme tokyonight-night]])
+vim.cmd([[colorscheme tokyonight]])
