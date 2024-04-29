@@ -20,10 +20,6 @@ require("lazy").setup({
 	{
 		"xiyaowong/transparent.nvim",
 	},
-	{
-		"startup-nvim/startup.nvim",
-		requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
-	},
 	"b0o/schemastore.nvim",
 	"tpope/vim-commentary",
 	"mattn/emmet-vim",
