@@ -9,7 +9,6 @@ return {
 				lua = { "stylua" },
 				json = { "prettier" },
 				css = { "prettier" },
-				astro = { "prettier" },
 				python = { "black" },
 			},
 			format_on_save = {
@@ -18,13 +17,5 @@ return {
 				timeout_ms = 500,
 			},
 		})
-
-		vim.keymap.set({ "n", "v" }, "<leader>f", function()
-			conform.format({
-				lsp_fallback = true,
-				async = false,
-				timeout_ms = 500,
-			})
-		end, { desc = "Format file or range (in visual mode)" })
 	end,
 }
