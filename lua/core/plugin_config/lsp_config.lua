@@ -118,6 +118,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		vim.api.nvim_create_autocmd("BufWritePre", {
 			pattern = {
 				"*.astro",
+				"*.json",
 			},
 			group = "AutoFormatting",
 			callback = function()
