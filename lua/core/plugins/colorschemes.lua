@@ -1,5 +1,6 @@
 return {
-	"morhetz/gruvbox",
+	-- "morhetz/gruvbox",
+	"ellisonleao/gruvbox.nvim",
 	"dracula/vim",
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "olimorris/onedarkpro.nvim", priority = 1000 },
