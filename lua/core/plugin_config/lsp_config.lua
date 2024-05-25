@@ -26,7 +26,7 @@ local lsp_defaults = lspconfig.util.default_config
 lsp_defaults.capabilities =
 	vim.tbl_deep_extend("force", lsp_defaults.capabilities, require("cmp_nvim_lsp").default_capabilities())
 
-require("lspconfig").lua_ls.setup({
+lspconfig.lua_ls.setup({
 	settings = {
 		Lua = {
 			diagnostics = {
@@ -42,7 +42,7 @@ require("lspconfig").lua_ls.setup({
 	},
 })
 
-require("lspconfig").jsonls.setup({
+lspconfig.jsonls.setup({
 	settings = {
 		json = {
 			schemas = require("schemastore").json.schemas(),
@@ -51,7 +51,7 @@ require("lspconfig").jsonls.setup({
 	},
 })
 
-require("lspconfig").yamlls.setup({
+lspconfig.yamlls.setup({
 	settings = {
 		yaml = {
 			schemaStore = {
@@ -75,24 +75,24 @@ lspconfig.eslint.setup({
 local on_attach = lspconfig.util.default_config.on_attach
 local capabilities = lspconfig.util.default_config.capabilities
 
-require("lspconfig").pyright.setup({
+lspconfig.pyright.setup({
 	on_attach = on_attach,
 	capabilities = capabilities,
 	filetypes = { "python" },
 })
 
-require("lspconfig").intelephense.setup({})
-require("lspconfig").tsserver.setup({})
-require("lspconfig").tailwindcss.setup({})
-require("lspconfig").html.setup({})
-require("lspconfig").astro.setup({})
-require("lspconfig").cssls.setup({})
-require("lspconfig").cssmodules_ls.setup({})
-require("lspconfig").unocss.setup({})
-require("lspconfig").emmet_ls.setup({})
-require("lspconfig").vuels.setup({})
-require("lspconfig").vimls.setup({})
-require("lspconfig").svelte.setup({})
+lspconfig.intelephense.setup({})
+lspconfig.tsserver.setup({})
+lspconfig.tailwindcss.setup({})
+lspconfig.html.setup({})
+lspconfig.astro.setup({})
+lspconfig.cssls.setup({})
+lspconfig.cssmodules_ls.setup({})
+lspconfig.unocss.setup({})
+lspconfig.emmet_ls.setup({})
+lspconfig.vuels.setup({})
+lspconfig.vimls.setup({})
+lspconfig.svelte.setup({})
 
 vim.api.nvim_create_autocmd("LspAttach", {
 	group = vim.api.nvim_create_augroup("UserLspConfig", {}),
