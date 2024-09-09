@@ -1,7 +1,7 @@
 require("mason-lspconfig").setup({
 	ensure_installed = {
 		"lua_ls",
-		"tsserver",
+		"ts_ls",
 		"html",
 		"astro",
 		"cssls",
@@ -82,7 +82,7 @@ lspconfig.pyright.setup({
 })
 
 lspconfig.intelephense.setup({})
-lspconfig.tsserver.setup({})
+lspconfig.ts_ls.setup({})
 lspconfig.tailwindcss.setup({})
 lspconfig.html.setup({})
 lspconfig.astro.setup({})
