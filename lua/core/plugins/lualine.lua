@@ -51,7 +51,7 @@ return {
 		-- configure lualine with modified theme
 		lualine.setup({
 			options = {
-				theme = "gruvbox",
+				theme = my_lualine_theme,
 			},
 			sections = {
 				lualine_x = {
