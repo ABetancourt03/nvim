@@ -65,11 +65,16 @@ lspconfig.yamlls.setup({
 
 lspconfig.eslint.setup({
 	on_attach = function(client, bufnr)
-		vim.api.nvim_create_autocmd("BufWritePre", {
-			buffer = bufnr,
-			command = "EslintFixAll",
+		vim.api.nvim_create_autocmd("BufWritePost", {
+			callback = function()
+				vim.cmd("EslintFixAll")
+			end,
 		})
 	end,
+	capabilities = capabilities,
+	settings = {
+		format = { enable = false },
+	},
 })
 
 local on_attach = lspconfig.util.default_config.on_attach
