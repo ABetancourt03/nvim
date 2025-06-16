@@ -25,7 +25,18 @@ return {
 		indent = { enabled = true },
 		input = { enabled = true },
 		git = { enabled = true },
-		picker = { enabled = true },
+		picker = {
+			enabled = true,
+			sources = {
+				explorer = {
+					hidden = true,
+					ignored = true,
+					exclude = {
+						"**/.git/*",
+					},
+				},
+			},
+		},
 		notifier = { enabled = true },
 		quickfile = { enabled = true },
 		scroll = { enabled = false },
