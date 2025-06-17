@@ -1,13 +1,16 @@
 return {
-	"chikko80/error-lens.nvim",
-	event = "BufRead",
-	dependencies = {
-		"nvim-telescope/telescope.nvim",
-	},
-	opts = {
-		enabled = true,
-		auto_adjust = {
-			enable = false,
-		},
-	},
+	"rachartier/tiny-inline-diagnostic.nvim",
+	event = "VeryLazy",
+	priority = 1000,
+	config = function()
+		require("tiny-inline-diagnostic").setup({
+			options = {
+				multilines = {
+					enabled = true,
+					always_show = true,
+				},
+			},
+		})
+		vim.diagnostic.config({ virtual_text = false }) -- Only if needed in your configuration, if you already have native LSP diagnostics
+	end,
 }
