@@ -101,7 +101,7 @@ return {
 			desc = "Grep Files",
 		},
 		{
-			"<leader>n",
+			"<leader>e",
 			function()
 				Snacks.explorer()
 			end,
