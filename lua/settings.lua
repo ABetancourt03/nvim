@@ -7,6 +7,7 @@ vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.cmd("set termguicolors")
 vim.cmd("set background=dark")
+vim.cmd("let g:astro_typescript = 'enable'")
 
 vim.g.mapleader = " "
 
