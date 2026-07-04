@@ -8,8 +8,8 @@ Remove any other configuration, make sure to backup your config if you want to k
 mv ~/.config/nvim{,.bak}
 ```
 
+### optional but recommended
 ```
-# optional but recommended
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
