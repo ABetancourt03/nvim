@@ -2,14 +2,24 @@
 
 ## Installation
 
-### First, to remove any other configuration copy and paste these commands
+### First, remove any other configuration, make sure to backup your config if you want to keep it with these commands:
 
 - Linux/MacOS:
 
+### 1.
+```
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+
+### 2.
 ```
 rm -rf ~/.config/nvim
 ```
-
 ```
 rm -rf ~/.local/share/nvim
 ```
