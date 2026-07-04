@@ -20,16 +20,16 @@ rm -rf ~/.local/share/nvim
 rm -Force ~\AppData\Local\nvim
 ```
 
-rm -Force ~\AppData\Local\nvim-data
 ```
+rm -Force ~\AppData\Local\nvim-data
 ```
 
 ### Once removed any config you have, paste this command to install the new config
 
 - Linux/MacOS:
 
-git clone https://github.com/ABetancourt03/nvim.git ~/.config/nvim && nvim
 ```
+git clone https://github.com/ABetancourt03/nvim.git ~/.config/nvim && nvim
 ```
 
 - Windows Powershell:
