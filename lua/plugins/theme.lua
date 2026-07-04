@@ -1,0 +1,1 @@
+/home/angelo/.config/omarchy/current/theme/neovim.lua
