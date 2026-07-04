@@ -1,22 +1,20 @@
-# My neovim config with LazyVim
+# Installation
 
-## Installation
-
-### First, remove any other configuration, make sure to backup your config if you want to keep it with these commands:
+Remove any other configuration, make sure to backup your config if you want to keep it with these commands:
 
 - Linux/MacOS:
 
-### 1.
 ```
 mv ~/.config/nvim{,.bak}
+```
 
+```
 # optional but recommended
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
-### 2.
 ```
 rm -rf ~/.config/nvim
 ```
@@ -34,8 +32,8 @@ rm -Force ~\AppData\Local\nvim
 rm -Force ~\AppData\Local\nvim-data
 ```
 
-### Once removed any config you have, paste this command to install the new config
 
+### Once removed any config you have, paste this command to install the new config.
 - Linux/MacOS:
 
 ```
@@ -48,4 +46,4 @@ git clone https://github.com/ABetancourt03/nvim.git ~/.config/nvim && nvim
 git clone https://github.com/ABetancourt03/nvim.git $ENV:USERPROFILE\AppData\Local\nvim && nvim
 ```
 
-### This will clone and install the config and all plugins automatically
+### This will clone and install the config and all plugins automatically.
