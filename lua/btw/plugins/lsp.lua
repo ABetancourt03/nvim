@@ -17,6 +17,7 @@ return {
 					},
 				},
 				ts_ls = {},
+				eslint = {},
 				eslint_d = {},
 				tailwindcss = {},
 			},
