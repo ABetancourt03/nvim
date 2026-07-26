@@ -1,11 +1,12 @@
 return {
-	"andweeb/presence.nvim",
+	"jiriks74/presence.nvim",
+	event = "UIEnter",
 	config = function()
 		require("presence").setup({
 			auto_update = true,
 			neovim_image_text = "The best text editor ever created",
 			main_image = "neovim",
-			client_id = "793271441293967371",
+			client_id = "1172122807501594644",
 			log_level = nil,
 			debounce_timeout = 10,
 			enable_line_number = false,
