@@ -4,6 +4,7 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.autoindent = true
 vim.opt.relativenumber = true
+vim.opt.winborder = "rounded"
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
