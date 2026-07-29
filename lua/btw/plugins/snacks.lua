@@ -72,5 +72,12 @@ return {
 			end,
 			desc = "Grep Files",
 		},
+		{
+			"<leader>lg",
+			function()
+				Snacks.lazygit.open()
+			end,
+			desc = "Lazygit",
+		},
 	},
 }
