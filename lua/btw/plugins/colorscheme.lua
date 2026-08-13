@@ -12,4 +12,23 @@ return {
 			},
 		},
 	},
+	{
+		"bjarneo/vantablack.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("vantablack").setup({
+				transparent = true,
+				styles = {
+					comments = { italic = true },
+					keywords = { italic = true },
+					functions = {},
+					variables = {},
+					sidebars = "dark",
+					floats = "dark",
+				},
+				dim_inactive = false,
+			})
+		end,
+	},
 }
