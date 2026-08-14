@@ -31,4 +31,13 @@ return {
 			})
 		end,
 	},
+	{
+		"rithikasilva/sequoia-monochrome.nvim",
+	},
+	{
+		"morhetz/gruvbox",
+	},
+	{
+		"kdheepak/monochrome.nvim",
+	},
 }
