@@ -41,4 +41,10 @@ return {
 		"kdheepak/monochrome.nvim",
 	},
 	{ "akinsho/horizon.nvim", version = "*" },
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 }
