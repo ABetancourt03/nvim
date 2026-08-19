@@ -40,4 +40,5 @@ return {
 	{
 		"kdheepak/monochrome.nvim",
 	},
+	{ "akinsho/horizon.nvim", version = "*" },
 }
