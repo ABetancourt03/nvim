@@ -47,4 +47,7 @@ return {
 		priority = 1000,
 		opts = {},
 	},
+	{
+		"shaunsingh/nord.nvim",
+	},
 }
