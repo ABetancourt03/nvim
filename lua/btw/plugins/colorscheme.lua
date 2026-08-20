@@ -1,5 +1,13 @@
 return {
 	{
+		"LazyVim/LazyVim",
+		opts = {
+			news = {
+				lazyvim = false,
+			},
+		},
+	},
+	{
 		"catppuccin/nvim",
 		name = "catppuccin",
 		priority = 1000,
