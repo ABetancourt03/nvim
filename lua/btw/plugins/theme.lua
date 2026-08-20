@@ -1,0 +1,1 @@
+/home/btw/.local/state/omarchy/current/theme/neovim.lua
